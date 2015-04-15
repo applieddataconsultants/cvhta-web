@@ -1,0 +1,38 @@
+
+body {
+	background: #fefefe;
+	min-width: 320px;
+	margin: 0;
+}
+#map {
+  height: 36rem;
+  width: 100%;
+  border-top: 1px solid #f4f4f4;
+  border-bottom: 1px solid #f4f4f4;
+  margin-bottom: 55px;
+  margin-top: 25px;
+}
+
+#bios .col-md-4 {
+	height: 280px;
+	overflow: hidden;
+}
+
+.leaflet-right{
+	display: none;
+}
+
+.footer {
+  background: #f4f4f4;
+  text-align: center;
+  height: 10rem;
+  width: 100%;
+}
+
+.credits {
+	margin: 20px;
+  	font-size: 1.575rem;
+  	line-height: 1.5rem;
+  	opacity: 0.48;
+  	font-weight: 400;
+}
