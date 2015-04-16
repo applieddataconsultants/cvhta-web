@@ -1,4 +1,3 @@
-
 body {
 	background: #fefefe;
 	min-width: 320px;
@@ -9,30 +8,32 @@ body {
   width: 100%;
   border-top: 1px solid #f4f4f4;
   border-bottom: 1px solid #f4f4f4;
-  margin-bottom: 55px;
   margin-top: 25px;
+  margin-bottom:-78px;
+  z-index:50;
+  top:-78px;
 }
-
 #bios .col-md-4 {
 	height: 280px;
 	overflow: hidden;
 }
-
 .leaflet-right{
 	display: none;
 }
-
 .footer {
   background: #f4f4f4;
   text-align: center;
   height: 10rem;
   width: 100%;
 }
-
 .credits {
 	margin: 20px;
   	font-size: 1.575rem;
   	line-height: 1.5rem;
   	opacity: 0.48;
   	font-weight: 400;
+}
+#header {
+	position:relative;
+	z-index:100;
 }
