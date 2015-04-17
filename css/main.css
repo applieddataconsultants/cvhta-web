@@ -3,6 +3,14 @@ body {
 	min-width: 320px;
 	margin: 0;
 }
+.navbar-brand, .navbar-nav>li>a {
+	font-size:12pt;
+	font-weight:bold;
+	color:#00A800;
+}
+h3 a {
+	color:#00A800;
+}
 #map {
   height: 36rem;
   width: 100%;
