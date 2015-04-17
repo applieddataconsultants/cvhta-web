@@ -7,7 +7,7 @@ var map = new L.Map("map", {
 });
 
 var markerIcon = L.MakiMarkers.icon({
-    icon: "warehouse",
+    icon: "marker",
     color: "#0a0",
     size: "s"
 });
