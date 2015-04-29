@@ -1,4 +1,4 @@
-var layer = new L.StamenTileLayer("toner"); 
+var layer = new L.StamenTileLayer("toner");
 var map = new L.Map("map", {
     center: new L.LatLng(44.817889670988784, -91.49414062499999),
     zoom: 12,
@@ -41,17 +41,40 @@ $.ajax({
 });
 
 function addMember(feature) {
-    if(feature.properties.logo){
-        $('#bios').append('<div class="col-md-4"><a href="'
-        +feature.properties.url+'"><div class="well center-block"><img src="'+feature.properties.logo+'">'
-        +'</img></div></a></div>')
-    
-    }else{
-	   $('#bios').append('<div class="col-md-4"><div class="well"><h3><a href="'
-		+feature.properties.url+'">'
-		+feature.properties.name+'</a></h3><p>'
-		+feature.properties.description+'</p></div></div>')
-    }   
+    var $colEl = $('<div class="col-md-4 col-sm-6"></div>')
+    var $blockEl = $('<div class="well center-block"></div>')
+
+    var $infoEl = $('<div class="company-info"></div>')
+    $infoEl
+        .append('<h3><a href="'+feature.properties.url+'">'+feature.properties.name+'</a></h3>')
+        .append('<p>'+feature.properties.description+'</p>')
+
+    if(feature.properties.logo) {
+        // Hide the .company-info until mouse over (handled below)
+        $infoEl.hide()
+
+        // Create photo container for centering the photo
+        var $photo = $('<div class="photo"></div>')
+        $photo.append('<img class="img-responsive" src="'+feature.properties.logo+'" />')
+
+        // Append the main photo container to the .well
+        var $photoContainer = $('<div class="photo-container"></div>').append($photo)
+        $($blockEl).append($photoContainer)
+
+        // Set hover transitions for images to display .company-info
+        $blockEl.hover(
+            function () { // Mouse Enter
+                $photoContainer.fadeOut(150, function () { $infoEl.fadeIn(100) })
+            },
+            function () { // Mouse Leave
+                $infoEl.fadeOut(150, function () { $photoContainer.fadeIn(100) })
+            }
+        )
+    }
+
+    $blockEl.append($infoEl)
+    $colEl.append($blockEl)
+    $('#bios').append($colEl)
 }
 
 function shuffle(array) {
