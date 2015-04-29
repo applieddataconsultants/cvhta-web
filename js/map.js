@@ -3,8 +3,11 @@ var map = new L.Map("map", {
     center: new L.LatLng(44.817889670988784, -91.49414062499999),
     zoom: 12,
     layers: [layer],
-    zoomControl: false
+    zoomControl: false,
+    scrollWheelZoom: false
 });
+map.addControl( L.control.zoom({position: 'topright'}) )
+
 
 var markerIcon = L.MakiMarkers.icon({
     icon: "marker",
@@ -37,6 +40,7 @@ $.ajax({
 		    }
 		}).addTo(map);
 		map.fitBounds(markers.getBounds());
+
     }
 });
 
