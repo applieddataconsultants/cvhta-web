@@ -21,9 +21,10 @@ h3 a {
   z-index:50;
   top:-78px;
 }
-#bios .col-md-4 {
+#bios .well {
 	height: 280px;
 	overflow: hidden;
+	margin-top: 15px;
 }
 .leaflet-right{
 	display: none;

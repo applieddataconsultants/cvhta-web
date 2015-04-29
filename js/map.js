@@ -25,7 +25,14 @@ $.ajax({
 			   return L.marker(latlng, {icon: markerIcon});
 			},
 		    onEachFeature: function (feature, layer) {
-		        layer.bindPopup(feature.properties.name);
+                if(feature.properties.logo){
+                    layer.bindPopup('<a target="_blank" href="'
+                    +feature.properties.url
+                    +'"><img src="'+feature.properties.logo+'">'
+                    +'</a></img>')
+                }else{
+                    layer.bindPopup(feature.properties.name);
+                }
 		        addMember(feature)
 		    }
 		}).addTo(map);
@@ -34,10 +41,17 @@ $.ajax({
 });
 
 function addMember(feature) {
-	$('#bios').append('<div class="col-md-4"><h3><a href="'
+    if(feature.properties.logo){
+        $('#bios').append('<div class="col-md-4"><a href="'
+        +feature.properties.url+'"><div class="well center-block"><img src="'+feature.properties.logo+'">'
+        +'</img></div></a></div>')
+    
+    }else{
+	   $('#bios').append('<div class="col-md-4"><div class="well"><h3><a href="'
 		+feature.properties.url+'">'
 		+feature.properties.name+'</a></h3><p>'
-		+feature.properties.description+'</p></div>')
+		+feature.properties.description+'</p></div></div>')
+    }   
 }
 
 function shuffle(array) {
