@@ -31,18 +31,15 @@ module.exports = {
     }, {
       test: /\.less$/,
       exclude: /node_modules/,
-      loader: ExtractTextPlugin.extract('css-loader', 'css-loader!less-loader')
+      loader: ExtractTextPlugin.extract('style', 'css!less')
     }, {
       test: /\.(eot|ttf|woff|woff2|svg|png)$/,
-      loader: 'file-loader'
+      loader: 'url-loader'
     }]
   },
   plugins: plugins,
   devServer: {
     contentBase: './dist',
-    info: true,
-    hot: true,
-    inline: true,
     port: 3000
   }
 }

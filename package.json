@@ -4,7 +4,8 @@
   "description": "http://sandbox3.adceval.com/cvhta/",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack-dev-server modules/index.js",
+    "start": "webpack-dev-server modules/index.js --hot --inline",
+    "dist": "NODE_ENV=production webpack modules/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint modules"
   },
@@ -26,6 +27,8 @@
     "file-loader": "^0.8.1",
     "less": "^2.5.0",
     "less-loader": "^2.2.0",
+    "style-loader": "^0.12.1",
+    "url-loader": "^0.5.5",
     "webpack": "^1.8.11",
     "webpack-dev-server": "^1.8.2"
   },
