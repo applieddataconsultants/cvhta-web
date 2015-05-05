@@ -5,7 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "start": "webpack-dev-server modules/index.js --hot --inline",
-    "dist": "NODE_ENV=production webpack modules/index.js",
+    "dist": "NODE_ENV=production webpack modules/index.js dist/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint modules"
   },
