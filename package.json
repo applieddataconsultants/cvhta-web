@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server clientapp --hot --inline",
     "dist": "NODE_ENV=production webpack clientapp dist/bundle.js",
-    "lint": "eslint clientapp"
+    "lint": "eslint clientapp",
+    "ci-lint": "eslint -f checkstyle clientapp > checkstyle-result.xml"
   },
   "repository": {
     "type": "git",
@@ -36,7 +37,7 @@
     "bootswatch": "^3.3.4",
     "jquery": "^2.1.4",
     "leaflet": "^0.7.3",
-    "leaflet.label": "leaflet/Leaflet.label",
+    "leaflet.label": "github:leaflet/Leaflet.label",
     "maki": "^0.4.5"
   }
 }
