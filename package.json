@@ -1,22 +1,18 @@
 {
   "name": "cvhta",
   "version": "1.0.0",
-  "description": "http://sandbox3.adceval.com/cvhta/",
+  "private": true,
   "main": "clientapp",
+  "description": "Chippewa Valley High Tech Alliance website",
   "scripts": {
     "start": "webpack-dev-server clientapp --hot --inline",
     "dist": "NODE_ENV=production webpack clientapp dist/bundle.js",
     "lint": "eslint clientapp",
     "ci-lint": "eslint -f checkstyle clientapp > checkstyle-result.xml"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@bitbucket.org/applieddataconsultants/cvhta.git"
-  },
   "keywords": [],
   "author": "Marc Harter <wavded@gmail.com>",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/applieddataconsultants/cvhta#readme",
   "devDependencies": {
     "babel": "^5.2.15",
     "babel-core": "^5.2.15",
@@ -39,5 +35,13 @@
     "leaflet": "^0.7.3",
     "leaflet.label": "github:leaflet/Leaflet.label",
     "maki": "^0.4.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/applieddataconsultants/cvhta-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/applieddataconsultants/cvhta-web/issues"
+  },
+  "homepage": "https://github.com/applieddataconsultants/cvhta-web#readme"
 }
