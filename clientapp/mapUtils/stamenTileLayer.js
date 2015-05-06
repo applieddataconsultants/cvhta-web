@@ -1,5 +1,9 @@
 import L from 'leaflet'
 
+/**
+ * Adapted from http://maps.stamen.com/js/tile.stamen.js for CommonJS/ES6
+ */
+
 let SUBDOMAINS = 'a. b. c. d.'.split(' '),
   MAKE_PROVIDER = function (layer, type, minZoom, maxZoom) {
     return {

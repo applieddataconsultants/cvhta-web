@@ -1,17 +1,9 @@
 import L from 'leaflet'
 
-/*
+/**
  * Leaflet plugin to create map icons using Maki Icons from MapBox.
- *
- * References:
- *   Maki Icons: https://www.mapbox.com/maki/
- *   MapBox Marker API: https://www.mapbox.com/developers/api/static/#markers
- *
- * Usage:
- *   let icon = L.MakiMarkers.icon({icon: "rocket", color: "#b0b", size: "m"});
- *
- * License:
- *   MIT: http://jseppi.mit-license.org/
+ * MIT: http://jseppi.mit-license.org/
+ * Adapted for CommonJS/ES6
  */
 
 let MakiMarkers = {
