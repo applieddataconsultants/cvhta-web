@@ -2,12 +2,11 @@
   "name": "cvhta",
   "version": "1.0.0",
   "description": "http://sandbox3.adceval.com/cvhta/",
-  "main": "webpack.config.js",
+  "main": "clientapp",
   "scripts": {
-    "start": "webpack-dev-server modules/index.js --hot --inline",
-    "dist": "NODE_ENV=production webpack modules/index.js dist/bundle.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint modules"
+    "start": "webpack-dev-server clientapp --hot --inline",
+    "dist": "NODE_ENV=production webpack clientapp dist/bundle.js",
+    "lint": "eslint clientapp"
   },
   "repository": {
     "type": "git",
