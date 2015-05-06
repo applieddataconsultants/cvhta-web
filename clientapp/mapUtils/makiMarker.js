@@ -54,6 +54,7 @@ MakiMarkers.Icon = L.Icon.extend({
   },
 
   initialize: function (options) {
+    /* eslint complexity:0 */
     let pin
 
     options = L.setOptions(this, options)
