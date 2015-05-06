@@ -1,6 +1,5 @@
 node_modules
 npm-debug.log
-dist/*.css
-dist/*.js
-dist/*.html
+dist
 checkstyle-result.xml
+.DS_Store

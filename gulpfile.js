@@ -4,6 +4,7 @@ let gulp = require('gulp')
 let gulpif = require('gulp-if')
 let prefix = require('gulp-autoprefixer')
 let uncss = require('gulp-uncss')
+let imagemin = require('gulp-imagemin')
 let minifyCss = require('gulp-minify-css')
 let minifyHtml = require('gulp-minify-html')
 let sourcemaps = require('gulp-sourcemaps')
@@ -13,8 +14,9 @@ let jade = require('gulp-jade')
 let webpack = require('webpack')
 let gwebpack = require('gulp-webpack')
 let browserSync = require('browser-sync').create()
-var runSequence = require('run-sequence')
+let runSequence = require('run-sequence')
 let fs = require('fs')
+let del = require('del')
 
 const srcPath = path.resolve(__dirname, './clientapp')
 const destPath = path.resolve(__dirname, './dist')
@@ -82,6 +84,16 @@ gulp.task('html', function () {
     .pipe(browserSync.reload({ stream: true }))
 })
 
+gulp.task('images', function () {
+  return gulp.src(srcPath + '/images/*')
+    .pipe(imagemin())
+    .pipe(gulp.dest(destPath + '/images'))
+})
+
+gulp.task('clean', function (cb) {
+  del('dist', cb)
+})
+
 gulp.task('watch', [ 'default' ], function () {
   browserSync.init({
     debug: true,
@@ -104,5 +116,5 @@ gulp.task('watch', [ 'default' ], function () {
 })
 
 gulp.task('default', function (cb) {
-  runSequence('html', ['js', 'css'], cb)
+  runSequence('clean', 'html', ['js', 'css', 'images'], cb)
 })
