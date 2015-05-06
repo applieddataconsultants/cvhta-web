@@ -1,5 +1,6 @@
 node_modules
 npm-debug.log
-dist/bundle.css
-dist/bundle.js
+dist/*.css
+dist/*.js
+dist/*.html
 checkstyle-result.xml

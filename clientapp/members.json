@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Applied Data Consultants, Inc.",
+        "url": "http://adc4gis.com",
+        "description": "Applied Data Consultants, Inc. (ADC) uses revolutionary web technologies and employs modern geographic information systems (GIS) to deliver real-time, dynamic, geospatial web solutions for clients throughout the nation.",
+        "logo": "http://adc4gis.com/media/layout/logo_glow.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.55211925506592,
+          44.8853401522454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "JAMF Software",
+        "url": "http://www.jamfsoftware.com/",
+        "description": "The Apple Management Experts. Whether you're just getting started with Mac, iPad, and iPhone in your organization—or have tens of thousands already—we can help you inventory, deploy, and secure each one with ease.",
+        "logo": "http://www.jamfsoftware.com/img/logo-full.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.50375366210938,
+          44.81428598318907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "IDEXX Laboratories",
+        "url": "https://www.idexx.com",
+        "description": "IDEXX Laboratories, Inc., is the global market leader in diagnostics and information technology solutions for animal health and water and milk quality."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.54688358306885,
+          44.84102097157541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reality Works",
+        "url": "http://realityworks.com/",
+        "description": "Realityworks develops interactive, educational products that changes lives."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.52179956436157,
+          44.79047010748775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Group Health Cooperative of Eau Claire",
+        "url": "https://www.group-health.com",
+        "description": "Group Health Cooperative of Eau Claire started over 30 years ago as a local thought and has grown into a nationally recognized HMO.",
+        "logo": "https://www.group-health.com/Images/Logo.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.44950866699219,
+          44.79665244618282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manpower",
+        "url": "http://www.manpower.com/",
+        "description": "Manpower is a world leader in the workforce solutions; creating and delivering services that enable its clients to win in the changing world of work. We provide top talent to a wide range of companies from small, local establishments on up to technology industry global leaders, and we’d love to help you find a new opportunity that’s just the right fit for you and your expertise. There are no fees for candidates to partner with Manpower. We understand that confidentiality is important in career decisions and our team will treat your career goal discussions privately so that we can connect you to the right opportunity – regardless of whether  you are passively or actively seeking a new opportunity.",
+        "logo": "http://www.manpower.com/img/logo_manpower.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.47242546081542,
+          44.807142633370475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Invisible Connect",
+        "url": "http://invisibleconnect.com",
+        "logo": "http://static1.squarespace.com/static/535feddee4b07da960fda792/t/54fefae4e4b0058d685b11fc/1428695224765/?format=1500w",
+        "description": "Invisible Connect, LLC. is a well-funded start-up company located in Eau Claire, WI. We are developing technologies and designing products that will redefine an established industry and shape its future."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.4979064464569,
+          44.81336885245684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rai Stone Group",
+        "url": "http://www.raistonegroup.com/",
+        "description": "Use the power of smart technology, predictive analytics, and an expert system to grow your SMB customer base."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.44485235214233,
+          44.781286741752176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cray Inc.",
+        "url": "http://www.cray.com/",
+        "description": "For over 40 years we have been developing highly advanced computing solutions for the world’s most complex science, engineering and analytics challenges. Ever since we introduced the world’s first supercomputer in 1976, our technologies have helped solve today’s problems and made tomorrow’s questions possible."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.3685638,
+          44.957419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Intel Corporation",
+        "url": "http://www.intel.com/",
+        "description": "Intel designs and builds the essential technologies that serve as the foundation for the world's computing devices."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.54189,
+          44.818633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CURT Manufacturing LLC",
+        "url": "http://www.curtmfg.com/",
+        "description": "CURT is a leading manufacturer and marketer of top-quality towing products. The company offers American-made, custom-fit receiver hitches and wiring harnesses for nearly any vehicle on the road. They also market a broad range of trailer hitches, towing systems and related accessories."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.410578,
+          44.795283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mason Companies, Inc.",
+        "url": "http://masoncompaniesinc.com/",
+        "description": "As a family-owned business, Mason Companies is unique in its commitment to employee quality of life—both at home and at work."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.396494,
+          44.951723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "As the trusted leader in high performance computing, SGI helps companies find answers to the world’s biggest challenges. Our commitment to innovation is unwavering and focused on delivering market leading solutions in Technical Computing, Big Data Analytics, and Petascale Storage. Our solutions provide unmatched performance, scalability and efficiency for a broad range of customers.",
+        "url": "http://www.sgi.com/",
+        "name": "SGI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.373495,
+          44.935054
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    title Chippewa Valley High-Tech Alliance
+    link(rel="stylesheet", href="bundle.css")
+  body
+    .cvhta-map-above
+    .cvhta-header.container
+      a(href="#", title="Chippewa Valley High-Tech Alliance")
+        img.cvhta-logo(src="img/logo2.png")
+
+      .pull-right
+        ul.nav.nav-pills
+          li: a(href="#about") About
+          li: a(href="#bios") Members
+          li: a(href="mailto:us@cvhta.com") Contact
+
+    #map.cvhta-map
+    .cvhta-map-below
+
+    .cvhta-box-accent
+      .container
+        h3
+          span.cvhta-accent Our Mission:
+          br
+          | To foster growth, innovation and awareness of the Chippewa Valley's high-tech community</h3>
+
+    #about.container
+      p.
+        A group of Chippewa Valley businesses have rallied together to raise
+        awareness and the many opportunities available in the area for
+        students and professionals in the hi-tech field.
+
+      p.
+        Dubbing themselves the Chippewa Valley High-Tech Alliance (CVHTA), the
+        companies met for the first time in December to discuss how they could
+        work together to form a coalition to market the area to potential
+        employees and recent graduates of both four-year and two-year programs
+        who have computer programming, IT and related skills.
+
+      p.
+        The idea was born after several business leaders who employ workers
+        with hi-tech skills discussed informally the challenges of attracting
+        and retaining these graduates to the Chippewa Valley. The group
+        decided to form its own coalition to showcase all the opportunities
+        that are available in this region, as well as to display the
+        innovative work performed by their talented employees.
+
+      p.
+        The initiators of the group include: Cray, JAMF, IDEXX, Intel,
+        Group Health Cooperative, Mason Shoe, Applied Data Consultants,
+        Reality Works, Raistone, Manpower, and Curt Manufacturing. The
+        businesses offer a broad spectrum of opportunities in many industries –
+        from health care, to manufacturing, to consulting, to software
+        development – and everything in between.
+
+      p.
+        While all of the businesses are members of various economic
+        development and chamber organizations, as well as connected with
+        higher education institutions, there was not any one group in the
+        Chippewa Valley that was solely dedicated to promoting the area as
+        the high-tech corridor that it is.
+
+      hr
+
+      #bios
+        each feature in members.features
+          .col-md-4.col-sm.6
+            .cvhta-company.well.center-block
+                if feature.properties.logo
+                  .cvhta-company-logo
+                    .photo
+                      img.img-responsive(src= feature.properties.logo)
+
+                .cvhta-company-info
+                  h3: a(href=feature.properties.url)= feature.properties.name
+                  p= feature.properties.description
+
+    p.text-center.clearfix.text-muted
+      small Chippewa Valley High-Tech Alliance &bull; 2015
+
+    script(src="bundle.js")

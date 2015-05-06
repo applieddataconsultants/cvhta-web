@@ -1,26 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Jura);
-@import "~bootstrap/less/bootstrap";
-@import "~bootswatch/paper/bootswatch.less";
-@import "~leaflet/dist/leaflet.css";
-@import "~leaflet.label/dist/leaflet.label.css";
+@import "bootstrap/less/bootstrap";
+@import "bootswatch/paper/bootswatch";
+@import (inline) "leaflet/dist/leaflet.css";
+@import (inline) "leaflet.label/dist/leaflet.label.css";
 
-@green-mid: #8A9F5C;
-@green-lighter: lighten(@green-mid, 50%);
-@green-light: lighten(@green-mid, 40%);
-@green-dark: darken(@green-mid, 20%);
-@blue-dark: #033E5E;
-@blue-light: lighten(@blue-dark, 20%);
-
-// custom leaflet label color
-.leaflet-label {
-  background-color: rgba(255,255,255,0.9);
-  border-color: rgba(225,225,225,0.7);
-  z-index: 1000 !important;
-}
-
-.leaflet-container {
-  background: #fff;
-}
+@tech-green: #8A9F5C;
+@tech-blue: #033E5E;
+@tech-gray: #8B8D90;
 
 body {
   background: #fff;
@@ -29,50 +15,10 @@ body {
 
 h1, h2, h3 {
   font-family: Jura, sans-serif;
-  color: @green-mid;
+  color: @tech-green;
 }
 
-.popup-img {
-  height: 60px;
-}
-.accent {
-  font-weight: bold;
-  color: @blue-dark;
-}
-
-.box-accent {
-  position: relative;
-  padding: 10px 50px;
-  z-index: 2;
-  background-color: fade(@green-mid, 85%);
-  margin: 10px 0;
-
-  h3 {
-    color: white;
-  }
-}
-
-.map-above {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 150px;
-  width: 100%;
-  z-index: 1;
-  background-image: linear-gradient(180deg, rgb(255,255,255, 0.8) 50px, rgba(255,255,255,0.0));
-  pointer-events: none;
-}
-
-.map-view {
-  position: relative;
-  z-index: 2px;
-  height: 600px;
-  background-image: linear-gradient(0deg, rgb(255,255,255,1), rgba(255,255,255,0.0));
-  margin-top: 525px;
-  margin-bottom: -600px;
-}
-
-#header {
+.cvhta-header {
   position: relative;
   z-index: 2;
   margin-bottom: 20px;
@@ -85,31 +31,59 @@ h1, h2, h3 {
     font-size: 16px;
     font-weight: bold;
     font-family: Jura, sans-serif;
-    color: @blue-dark;
+    color: @tech-blue;
   }
 }
 
-.container {
-  position: relative;
-  z-index: 1;
+.cvhta-popup-logo {
+  height: 60px;
 }
 
-
-.navbar-brand, .navbar-nav > li > a {
-  margin-top: 40px;
-  font-size: 16px;
+.cvhta-accent {
   font-weight: bold;
-  font-family: Jura, sans-serif;
-  color: @blue-dark;
+  color: @tech-blue;
 }
 
-#logo {
+.cvhta-box-accent {
+  position: relative;
+  padding: 10px 50px;
+  z-index: 2;
+  background-color: fade(@tech-green, 85%);
+  margin: 10px 0;
+
+  h3 {
+    color: white;
+  }
+}
+
+.cvhta-map-above {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 150px;
+  width: 100%;
+  z-index: 1;
+  background-image: linear-gradient(180deg, rgb(255,255,255, 0.8) 50px, rgba(255,255,255,0.0));
+  pointer-events: none;
+}
+
+.cvhta-map-below {
+  position: relative;
+  z-index: 2px;
+  height: 600px;
+  background-image: linear-gradient(0deg, rgb(255,255,255,1), rgba(255,255,255,0.0));
+  margin-top: 525px;
+  margin-bottom: -600px;
+  pointer-events: none;
+}
+
+.cvhta-logo {
   position: absolute;
   margin-top: 20px;
   height: 130px;
 }
 
-#map {
+.cvhta-map {
   position: absolute;
   top: 0;
   bottom: -300px;
@@ -118,49 +92,76 @@ h1, h2, h3 {
   z-index: 0;
 }
 
-#map-view {
-  height: 350px;
-  pointer-events: none;
-}
-
-#bios .well {
+.cvhta-company {
   height: 280px;
   overflow: hidden;
   margin-top: 15px;
-}
-.photo-container { width: 100%; }
-.photo-container .photo {
-  height: 245px;
-  width: 100%;
-  background-color: transparent !important;
-  position: relative;
-  -webkit-print-color-adjust: exact;
-}
-.photo-container .photo img {
-  max-height: 245px;
-  max-width: 100%;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  background-color: #fff;
+
+  &:hover .cvhta-company-logo {
+    display: none;
+  }
 }
 
-.well {
-  background-color: #fff;
+.cvhta-company-logo {
+  width: 100%;
+
+  .photo {
+    height: 245px;
+    width: 100%;
+    background-color: transparent !important;
+    position: relative;
+    -webkit-print-color-adjust: exact;
+  }
+
+  img {
+    max-height: 245px;
+    max-width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
 }
-.company-info {
+
+.cvhta-company-info {
   max-height: 245px;
   overflow-y: scroll;
 
   h3 {
     margin-top: 10px;
     a {
-      color: @blue-dark;
+      color: @tech-blue;
     }
   }
   p {
-    color: #888;
+    color: @tech-gray;
   }
+}
+
+// bootstrap overrides
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Jura, sans-serif;
+  color: @tech-blue;
+}
+
+// leaflet overrides
+.leaflet-label {
+  background-color: rgba(255,255,255,0.9);
+  border-color: rgba(225,225,225,0.7);
+  z-index: 1000 !important;
+}
+
+.leaflet-container {
+  background: #fff;
 }
