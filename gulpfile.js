@@ -59,7 +59,7 @@ gulp.task('css', function () {
     // uncss
     .pipe(uncss({
       html: ['dist/index.html'],
-      ignore: [ /leaflet/ ]
+      ignore: [ /leaflet/, /cvhta/ ]
     }))
 
     // autoprefixer

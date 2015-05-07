@@ -19,7 +19,7 @@ let markerIcon = makiMarker({
   size: 's'
 })
 
-L.geoJson(members, {
+let memberLayer = L.geoJson(members, {
   pointToLayer: function (feature, latlng) {
     return L.marker(latlng, { icon: markerIcon })
   },
@@ -34,4 +34,6 @@ L.geoJson(members, {
       layer.bindLabel(feature.properties.name, { clickable: true })
     }
   }
-}).addTo(map)
+})
+
+memberLayer.addTo(map)
