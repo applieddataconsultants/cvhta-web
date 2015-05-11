@@ -106,6 +106,8 @@ gulp.task('html', function () {
  * Task: Generates dist/images/*
  */
 gulp.task('images', function () {
+  gulp.src(srcPath + '/favicon.ico').pipe(gulp.dest(destPath))
+
   return gulp.src(srcPath + '/images/*')
     // Compress images
     .pipe(imagemin())
