@@ -4,7 +4,6 @@ let gulp = require('gulp')
 let gulpif = require('gulp-if')
 let prefix = require('gulp-autoprefixer')
 let uncss = require('gulp-uncss')
-let imagemin = require('gulp-imagemin')
 let minifyCss = require('gulp-minify-css')
 let minifyHtml = require('gulp-minify-html')
 let sourcemaps = require('gulp-sourcemaps')
@@ -17,6 +16,7 @@ let browserSync = require('browser-sync').create()
 let runSequence = require('run-sequence')
 let fs = require('fs')
 let del = require('del')
+let merge = require('merge-stream')
 
 const srcPath = path.resolve(__dirname, './clientapp')
 const destPath = path.resolve(__dirname, './dist')
@@ -106,12 +106,13 @@ gulp.task('html', function () {
  * Task: Generates dist/images/*
  */
 gulp.task('images', function () {
-  gulp.src(srcPath + '/favicon.ico').pipe(gulp.dest(destPath))
+  let favicon = gulp.src(srcPath + '/favicon.ico')
+    .pipe(gulp.dest(destPath))
 
-  return gulp.src(srcPath + '/images/*')
-    // Compress images
-    .pipe(imagemin())
+  let images = gulp.src(srcPath + '/images/*')
     .pipe(gulp.dest(destPath + '/images'))
+
+  return merge(favicon, images)
 })
 
 /**
