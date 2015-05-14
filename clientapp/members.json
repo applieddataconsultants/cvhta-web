@@ -36,7 +36,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "IDEXX Laboratories",
+        "name": "IDEXX Laboratories, Inc",
         "url": "https://www.idexx.com",
         "description": "IDEXX Laboratories, Inc., is the global market leader in diagnostics and information technology solutions for animal health and water and milk quality."
       },
@@ -92,22 +92,6 @@
         "coordinates": [
           -91.47242546081542,
           44.807142633370475
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Invisible Connect",
-        "url": "http://invisibleconnect.com",
-        "logo": "http://static1.squarespace.com/static/535feddee4b07da960fda792/t/54fefae4e4b0058d685b11fc/1428695224765/?format=1500w",
-        "description": "Invisible Connect, LLC. is a well-funded start-up company located in Eau Claire, WI. We are developing technologies and designing products that will redefine an established industry and shape its future."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.4979064464569,
-          44.81336885245684
         ]
       }
     },
