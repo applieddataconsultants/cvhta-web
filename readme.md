@@ -6,7 +6,7 @@ Chippewa Valley High Tech Alliance website.
 
 ## Setup
 
-1. Install [Node/io](https://iojs.org)
+1. Install [Node/io](https://iojs.org) and [phantomjs](http://phantomjs.org)
 2. `npm install`
 3. `npm start`
 
