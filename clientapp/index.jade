@@ -12,7 +12,8 @@ html(lang="en")
       .pull-right
         ul.nav.nav-pills
           li: a(href="#mission") About
-          li: a(href="#bios") Members
+          li: a(href="#members") Members
+          li: a(href="#partners") Partners
           li: a(href="mailto:us@cvhta.com") Contact
 
     #map.cvhta-map
@@ -25,14 +26,15 @@ html(lang="en")
           br
           | To foster growth, innovation and awareness of the Chippewa Valley's high-tech community</h3>
 
-    #about.container
+    #about.container.cvhta-style
+      br
       p.
         A group of Chippewa Valley businesses have rallied together to raise
         awareness and the many opportunities available in the area for
         students and professionals in high-tech fields.
 
       p.
-        Dubbing themselves the Chippewa Valley High-Tech Alliance (CVHTA), the
+        Dubbing themselves the <span class="cvhta-accent">Chippewa Valley High-Tech Alliance (CVHTA)</span>, the
         companies met for the first time in December to discuss how they could
         work together to form a coalition to market the area to potential
         employees and recent graduates of both four-year and two-year programs
@@ -61,21 +63,34 @@ html(lang="en")
         Chippewa Valley that was solely dedicated to promoting the area as
         the high-tech corridor that it is.
 
-      hr
 
-      #bios
-        each feature in members.features
-          .col-md-4.col-sm.6
-            .cvhta-company.well.center-block
-                if feature.properties.logo
-                  .cvhta-company-logo
-                    .photo
-                      img.img-responsive(src= feature.properties.logo)
+      h3#members.cvhta-accent.text-center Members
+        
+      each feature in members.features
+        .col-md-4.col-sm-6
+          .cvhta-company.well.center-block
+              if feature.properties.logo
+                .cvhta-company-logo
+                  .photo
+                    img.img-responsive(src= feature.properties.logo)
 
-                .cvhta-company-info
-                  h3: a(href=feature.properties.url)= feature.properties.name
-                  p= feature.properties.description
-
+              .cvhta-company-info
+                h3: a(href=feature.properties.url)= feature.properties.name
+                p= feature.properties.description
+                  
+      .clearfix
+      
+      h3#partners.cvhta-accent.text-center Partners
+      
+      each feature in partners.features
+        .col-md-4.col-sm-6
+          .cvhta-partner.well.center-block
+            if feature.properties.logo
+              img.img-responsive(src= feature.properties.logo)
+            else
+              h3: a(href=feature.properties.url)= feature.properties.name
+      
+    hr
     p.text-center.clearfix.text-muted
       small Chippewa Valley High-Tech Alliance &bull; 2015
 

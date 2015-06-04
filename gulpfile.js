@@ -89,6 +89,7 @@ gulp.task('css', function () {
  */
 gulp.task('html', function () {
   let members = JSON.parse(fs.readFileSync(srcPath + '/members.json', 'utf8'))
+  let partners = JSON.parse(fs.readFileSync(srcPath + '/partners.json', 'utf8'))
 
   // Sort members alphabetically
   members.features.sort(function (a, b) {
@@ -96,7 +97,7 @@ gulp.task('html', function () {
   })
 
   return gulp.src(srcPath + '/*.jade')
-    .pipe(jade({ locals: { members: members }}))
+    .pipe(jade({ locals: { members: members, partners: partners }}))
     .pipe(minifyHtml())
     .pipe(gulp.dest(destPath))
     .pipe(browserSync.reload({ stream: true }))

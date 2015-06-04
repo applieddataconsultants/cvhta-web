@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Jura);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import "bootstrap/less/bootstrap";
 @import "bootswatch/paper/bootswatch";
 @import (inline) "leaflet/dist/leaflet.css";
@@ -6,16 +7,22 @@
 
 @tech-green: #8A9F5C;
 @tech-blue: #033E5E;
-@tech-gray: #8B8D90;
+@tech-gray: #7f7f7f;
 
 body {
   background: #fff;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  line-height: 26px;
 }
 
 h1, h2, h3 {
   font-family: Jura, sans-serif;
   color: @tech-green;
+}
+
+.cvhta-style {
+  color: @tech-gray;
 }
 
 .cvhta-header {
@@ -46,7 +53,7 @@ h1, h2, h3 {
 
 .cvhta-box-accent {
   position: relative;
-  padding: 10px 50px;
+  padding: 10px 0px;
   z-index: 2;
   background-color: fade(@tech-green, 85%);
   margin: 10px 0;
@@ -93,21 +100,28 @@ h1, h2, h3 {
 }
 
 .cvhta-company {
-  height: 280px;
+  height: 380px;
   overflow: hidden;
   margin-top: 15px;
   background-color: #fff;
 
   &:hover .cvhta-company-logo {
-    display: none;
+    transform: translateY(-200px);
+    opacity: 0;
   }
 }
 
 .cvhta-company-logo {
-  width: 100%;
+  transition: 0.5s ease-out;
+  background-color: #fff;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  bottom: 25px;
+  right: 20px;
 
   .photo {
-    height: 245px;
+    height: 345px;
     width: 100%;
     background-color: transparent !important;
     position: relative;
@@ -115,7 +129,7 @@ h1, h2, h3 {
   }
 
   img {
-    max-height: 245px;
+    max-height: 345px;
     max-width: 100%;
     margin: auto;
     position: absolute;
@@ -127,8 +141,8 @@ h1, h2, h3 {
 }
 
 .cvhta-company-info {
-  max-height: 245px;
-  overflow-y: scroll;
+  max-height: 345px;
+  overflow-y:  hidden;
 
   h3 {
     margin-top: 10px;
@@ -138,6 +152,17 @@ h1, h2, h3 {
   }
   p {
     color: @tech-gray;
+  }
+}
+
+.cvhta-partner {
+  height: 100px;
+  overflow: hidden;
+  background-color: #fff;
+  border: none;
+
+  a {
+    color: @tech-green;
   }
 }
 

@@ -66,38 +66,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Group Health Cooperative of Eau Claire",
-        "url": "https://www.group-health.com",
-        "description": "Group Health Cooperative of Eau Claire started over 30 years ago as a local thought and has grown into a nationally recognized HMO.",
-        "logo": "https://www.group-health.com/Images/Logo.png"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.44950866699219,
-          44.79665244618282
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Manpower",
-        "url": "http://www.manpower.com/",
-        "description": "Manpower is a world leader in the workforce solutions; creating and delivering services that enable its clients to win in the changing world of work. We provide top talent to a wide range of companies from small, local establishments on up to technology industry global leaders, and we’d love to help you find a new opportunity that’s just the right fit for you and your expertise. There are no fees for candidates to partner with Manpower. We understand that confidentiality is important in career decisions and our team will treat your career goal discussions privately so that we can connect you to the right opportunity – regardless of whether  you are passively or actively seeking a new opportunity.",
-        "logo": "http://www.manpower.com/img/logo_manpower.png"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.47242546081542,
-          44.807142633370475
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "RAI Stone Group",
         "url": "http://www.raistonegroup.com/",
         "description": "Use the power of smart technology, predictive analytics, and an expert system to grow your SMB customer base."
@@ -143,37 +111,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "CURT Manufacturing LLC",
-        "url": "http://www.curtmfg.com/",
-        "description": "CURT is a leading manufacturer and marketer of top-quality towing products. The company offers American-made, custom-fit receiver hitches and wiring harnesses for nearly any vehicle on the road. They also market a broad range of trailer hitches, towing systems and related accessories."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.410578,
-          44.795283
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Mason Companies, Inc.",
-        "url": "http://masoncompaniesinc.com/",
-        "description": "As a family-owned business, Mason Companies is unique in its commitment to employee quality of life—both at home and at work."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.396494,
-          44.951723
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "description": "As the trusted leader in high performance computing, SGI helps companies find answers to the world’s biggest challenges. Our commitment to innovation is unwavering and focused on delivering market leading solutions in Technical Computing, Big Data Analytics, and Petascale Storage. Our solutions provide unmatched performance, scalability and efficiency for a broad range of customers.",
+        "description": "As the trusted leader in high performance computing, SGI helps companies find answers to the world’s biggest challenges. Our commitment to innovation is unwavering and focused on delivering market leading solutions in Technical Computing, Big Data Analytics, and Petascale Storage.",
         "url": "http://www.sgi.com/",
         "name": "SGI"
       },
@@ -204,7 +142,7 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "Entropy Multimedia was founded in 1997 with a simple vision: to empower people and organizations to take control of their web content. Since that time the company has grown into a team of diverse individuals, each of whom brings expertise to bear on the challenges of web application development and content management. We have offices in Wisconsin and New York and offer resources both to help understand and to solve the problems that face enterprise class web sites. Serving world-class clients like Pokemon U.S.A. and the New York Institute of Technology, Entropy Multimedia, Inc. has created and supports a diverse set of complex sites.",
+        "description": "Entropy Multimedia exists to empower people and organizations to take control of their web content. The company has grown into a team of diverse individuals, each of whom brings expertise to bear on the challenges of web application development and content management.",
         "url": "http://entropymultimedia.com/",
         "name": "Entropy Multimedia"
       },
