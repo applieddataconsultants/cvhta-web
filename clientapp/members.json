@@ -184,6 +184,37 @@
           44.935054
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "JB Systems is a leading custom website design company in Eau Claire, specializing in web development, graphic design and online marketing.",
+        "url": "http://www.jbsystemsllc.com/",
+        "name": "JB Systems",
+        "logo": "https://pbs.twimg.com/profile_images/477180520938225664/gB4N2fn3_400x400.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.49837851524353,
+          44.80988286149932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Entropy Multimedia was founded in 1997 with a simple vision: to empower people and organizations to take control of their web content. Since that time the company has grown into a team of diverse individuals, each of whom brings expertise to bear on the challenges of web application development and content management. We have offices in Wisconsin and New York and offer resources both to help understand and to solve the problems that face enterprise class web sites. Serving world-class clients like Pokemon U.S.A. and the New York Institute of Technology, Entropy Multimedia, Inc. has created and supports a diverse set of complex sites.",
+        "url": "http://entropymultimedia.com/",
+        "name": "Entropy Multimedia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.49907320737839,
+          44.81063449854619
+        ]
+      }
     }
   ]
 }

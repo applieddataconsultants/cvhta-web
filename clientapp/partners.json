@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Group Health Cooperative",
+        "url": "https://www.group-health.com",
+        "logo": "https://www.group-health.com/Images/Logo.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.44950866699219,
+          44.79665244618282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eau Claire County",
+        "url": "http://www.co.eau-claire.wi.us/",
+        "logo": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.50421500205994,
+          44.808010386362795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "City of Eau Claire",
+        "url": "http://www.ci.eau-claire.wi.us/",
+        "logo": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.49819612503052,
+          44.81193794716459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Curt Manufacturing",
+        "url": "http://www.curtmfg.com/",
+        "logo": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.410578,
+          44.795283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mason Companies, Inc.",
+        "url": "http://masoncompaniesinc.com/",
+        "logo": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.396494,
+          44.951723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manpower",
+        "url": "http://www.manpower.com/",
+        "logo": "http://www.manpower.com/img/logo_manpower.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.47242546081542,
+          44.807142633370475
+        ]
+      }
+    }
+  ]
+}
