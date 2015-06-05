@@ -1,6 +1,6 @@
 [![Build Status](https://jenkins.adc4gis.com/buildStatus/icon?job=cvhta-web)](https://jenkins.adc4gis.com/job/cvhta-web/) [![dependency status](https://img.shields.io/david/applieddataconsultants/cvhta-web.svg?style=flat)](https://david-dm.org/wavded/io-barcode)
 
-![Logo](clientapp/images/logo.png)
+<img src="clientapp/images/logo.png" width=300/>
 
 Chippewa Valley High Tech Alliance website.
 
