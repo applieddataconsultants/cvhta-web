@@ -39,7 +39,8 @@
     "bootstrap": "^3.3.4",
     "bootswatch": "^3.3.4",
     "leaflet": "^0.7.3",
-    "leaflet.label": "github:leaflet/Leaflet.label"
+    "leaflet.label": "github:leaflet/Leaflet.label",
+    "smooth-scroll": "cferdinandi/smooth-scroll"
   },
   "repository": {
     "type": "git",

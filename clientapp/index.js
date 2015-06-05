@@ -1,6 +1,8 @@
 import L from 'leaflet'
 import 'leaflet.label'
+
 import makiMarker from './mapUtils/makiMarker'
+import smoothScroll from 'smooth-scroll'
 import stamenTileLayer from './mapUtils/stamenTileLayer'
 import makePointLayer from './mapUtils/makePointLayer'
 import members from './members.json'
@@ -55,3 +57,9 @@ document
     map.setView(center, zoom)
     fullModeOn = false
   })
+
+smoothScroll.init({
+  speed: 1000,
+  offset: 40,
+  easing: 'easeInOutQuart'
+})
