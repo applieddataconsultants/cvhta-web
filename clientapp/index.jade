@@ -86,7 +86,8 @@ html(lang="en")
         .col-md-4.col-sm-6
           .cvhta-partner.well.center-block
             if feature.properties.logo
-              img.img-responsive(src= feature.properties.logo)
+              a(href=feature.properties.url)
+                img.img-responsive(src= feature.properties.logo)
             else
               h3: a(href=feature.properties.url)= feature.properties.name
       

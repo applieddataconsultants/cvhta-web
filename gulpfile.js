@@ -95,6 +95,9 @@ gulp.task('html', function () {
   members.features.sort(function (a, b) {
     return a.properties.name > b.properties.name ? 1 : -1
   })
+  partners.features.sort(function (a, b) {
+    return a.properties.name > b.properties.name ? 1 : -1
+  })
 
   return gulp.src(srcPath + '/*.jade')
     .pipe(jade({ locals: { members: members, partners: partners }}))
