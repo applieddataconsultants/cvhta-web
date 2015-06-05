@@ -17,6 +17,7 @@ let runSequence = require('run-sequence')
 let fs = require('fs')
 let del = require('del')
 let merge = require('merge-stream')
+let gutil = require('gulp-util')
 
 const srcPath = path.resolve(__dirname, './clientapp')
 const destPath = path.resolve(__dirname, './dist')
@@ -58,17 +59,24 @@ gulp.task('js', function () {
  * Task: Generates dist/bundle.css
  */
 gulp.task('css', function () {
+
+  let error = function (er) {
+    gutil.log(er)
+    this.emit('end')
+  }
+
   return gulp
     .src(srcPath + '/styles/index.less')
     .pipe(sourcemaps.init())
     .pipe(less({
       paths: [ path.join(__dirname, 'node_modules') ]
     }))
+    .on('error', error)
 
     // Remove unused CSS rules
     .pipe(uncss({
       html: ['dist/index.html'],
-      ignore: [ /leaflet/, /cvhta/ ]
+      ignore: [ /leaflet/, /cvhta/, /container/ ]
     }))
 
     // Add vendor prefixes

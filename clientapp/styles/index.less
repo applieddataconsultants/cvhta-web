@@ -16,9 +16,30 @@ body {
   line-height: 26px;
 }
 
+body.full-map {
+  .cvhta-map {
+    bottom: 0;
+    height: auto;
+  }
+  .cvhta-close-full-map {
+    display: block;
+  }
+
+  #about.container, #mission.cvhta-box-accent {
+    transform: translateY(1000px);
+  }
+  .cvhta-header, .cvhta-map-above {
+    transform: translateY(-200px);
+  }
+}
+
 h1, h2, h3 {
   font-family: Jura, sans-serif;
   color: @tech-green;
+}
+
+.container {
+  transition: 1s;
 }
 
 .cvhta-style {
@@ -26,6 +47,7 @@ h1, h2, h3 {
 }
 
 .cvhta-header {
+  transition: 1s;
   position: relative;
   z-index: 2;
   margin-bottom: 20px;
@@ -52,6 +74,7 @@ h1, h2, h3 {
 }
 
 .cvhta-box-accent {
+  transition: 1.5s;
   position: relative;
   padding: 10px 0px;
   z-index: 2;
@@ -63,7 +86,21 @@ h1, h2, h3 {
   }
 }
 
+.cvhta-close-full-map {
+  position: absolute;
+  top: 14px;
+  right: 15px;
+  z-index: 1001;
+  padding: 5px 10px;
+  color: #fff;
+  font-weight: bold;
+  background-color: fade(@tech-blue, 85%);
+  cursor: pointer;
+  display: none;
+}
+
 .cvhta-map-above {
+  transition: 1.5s;
   position: absolute;
   top: 0;
   left: 0;
