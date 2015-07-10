@@ -38,6 +38,7 @@
   "dependencies": {
     "bootstrap": "^3.3.4",
     "bootswatch": "^3.3.4",
+    "buoy": "^0.4.7",
     "leaflet": "^0.7.3",
     "leaflet.label": "github:leaflet/Leaflet.label",
     "smooth-scroll": "cferdinandi/smooth-scroll"
