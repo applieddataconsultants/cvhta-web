@@ -38,7 +38,8 @@
       "properties": {
         "name": "IDEXX Laboratories, Inc",
         "url": "https://www.idexx.com",
-        "description": "IDEXX Laboratories, Inc., is the global market leader in diagnostics and information technology solutions for animal health and water and milk quality."
+        "description": "IDEXX Laboratories, Inc., is the global market leader in diagnostics and information technology solutions for animal health and water and milk quality.",
+        "logo":"https://www.idexx.com/images/corporate/idexx-logo-header.png"
       },
       "geometry": {
         "type": "Point",
@@ -53,7 +54,8 @@
       "properties": {
         "name": "Realityworks",
         "url": "http://realityworks.com/",
-        "description": "Realityworks develops interactive, educational products that changes lives."
+        "description": "Realityworks develops interactive, educational products that changes lives.",
+        "logo":"http://realityworks.com/blog/images/Realityworks_logo%20Color.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -68,7 +70,8 @@
       "properties": {
         "name": "RAI Stone Group",
         "url": "http://www.raistonegroup.com/",
-        "description": "Use the power of smart technology, predictive analytics, and an expert system to grow your SMB customer base."
+        "description": "Use the power of smart technology, predictive analytics, and an expert system to grow your SMB customer base.",
+        "logo":"http://static.wixstatic.com/media/10caf6_a0f8ca8df28f495d8d270b9897c636ec.jpg_srz_p_63_63_75_22_0.50_1.20_0.00_jpg_srz"
       },
       "geometry": {
         "type": "Point",
@@ -83,7 +86,8 @@
       "properties": {
         "name": "Cray Inc.",
         "url": "http://www.cray.com/",
-        "description": "For over 40 years we have been developing highly advanced computing solutions for the world’s most complex science, engineering and analytics challenges. Ever since we introduced the world’s first supercomputer in 1976, our technologies have helped solve today’s problems and made tomorrow’s questions possible."
+        "description": "For over 40 years we have been developing highly advanced computing solutions for the world’s most complex science, engineering and analytics challenges. Ever since we introduced the world’s first supercomputer in 1976, our technologies have helped solve today’s problems and made tomorrow’s questions possible.",
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/8/89/Cray_logo.svg"
       },
       "geometry": {
         "type": "Point",
@@ -98,7 +102,8 @@
       "properties": {
         "name": "Intel Corporation",
         "url": "http://www.intel.com/",
-        "description": "Intel designs and builds the essential technologies that serve as the foundation for the world's computing devices."
+        "description": "Intel designs and builds the essential technologies that serve as the foundation for the world's computing devices.",
+        "logo":"http://www.hwoverdrive.com/wp-content/uploads/2015/02/Intel.png"
       },
       "geometry": {
         "type": "Point",
@@ -113,7 +118,8 @@
       "properties": {
         "description": "As the trusted leader in high performance computing, SGI helps companies find answers to the world’s biggest challenges. Our commitment to innovation is unwavering and focused on delivering market leading solutions in Technical Computing, Big Data Analytics, and Petascale Storage.",
         "url": "http://www.sgi.com/",
-        "name": "SGI"
+        "name": "SGI",
+        "logo":"http://www.sgi.com/images/main_template/topbar_logo.png"
       },
       "geometry": {
         "type": "Point",
@@ -144,7 +150,8 @@
       "properties": {
         "description": "Entropy Multimedia exists to empower people and organizations to take control of their web content. The company has grown into a team of diverse individuals, each of whom brings expertise to bear on the challenges of web application development and content management.",
         "url": "http://entropymultimedia.com/",
-        "name": "Entropy Multimedia"
+        "name": "Entropy Multimedia",
+        "logo":"http://i.entropy.cc/css/img/entropy-logo-web.png"
       },
       "geometry": {
         "type": "Point",
