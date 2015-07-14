@@ -21,7 +21,7 @@
       "properties": {
         "name": "Eau Claire County",
         "url": "http://www.co.eau-claire.wi.us/",
-        "logo": ""
+        "logo": "https://media.licdn.com/media-proxy/ext?w=180&h=110&f=c&hash=EMXGLJ5UCc4gDUQH25yqn7VAHy8%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0Vinkhwfjw8177yE41y87UNCVordEGXyD3u0qYrdfyLqeMLZKLChuQgfLSkclABhfvKhFDfoD8K6K4i-LtwljsO2dY25YwMPfBF4j3lK6w"
       },
       "geometry": {
         "type": "Point",
@@ -36,7 +36,7 @@
       "properties": {
         "name": "City of Eau Claire",
         "url": "http://www.ci.eau-claire.wi.us/",
-        "logo": ""
+        "logo": "http://www.eauclairedevelopment.com/images/news/city-logo.jpg?1398270260"
       },
       "geometry": {
         "type": "Point",
@@ -51,7 +51,7 @@
       "properties": {
         "name": "Curt Manufacturing",
         "url": "http://www.curtmfg.com/",
-        "logo": ""
+        "logo": "http://www.curtmfg.com/Content/img/logo.png"
       },
       "geometry": {
         "type": "Point",
@@ -66,7 +66,7 @@
       "properties": {
         "name": "Mason Companies, Inc.",
         "url": "http://masoncompaniesinc.com/",
-        "logo": ""
+        "logo": "http://masoncompaniesinc.com/wp-content/themes/mason/images/mason_logo.png"
       },
       "geometry": {
         "type": "Point",
