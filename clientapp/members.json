@@ -160,6 +160,38 @@
           44.81063449854619
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Evrisko Systems' Low-Cost Open Protocol WiFi products dramatically reduce the overall expenses associated with installation, reconfiguration, maintenance, and operations of intelligent building automation systems. Evrisko’s product line will give you a rapid return on investment by reducing typical Intelligent Building Automation Control Systems (IBAS) installation cost by up to 60%, and as much as 90% in retrofit instances.",
+        "url": "http://www.evriskosys.com/",
+        "name": "Evrisko Systems",
+        "logo":"http://www.evriskosys.com/images/Evrisko-transbackground.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.5414194,
+          44.8424983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Superion Technology is an industry leader for ASIC & FPGA Design Services and Consulting. Our U.S.-based team has over 15 years of experience working together on advanced chip design projects in a variety of domains.",
+        "url": "http://superiontech.com/",
+        "name": "Superion Technology",
+        "logo":"http://superiontech.com/wp-content/uploads/2014/11/logo.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.4604682,
+          44.7735891
+        ]
+      }
     }
   ]
 }
