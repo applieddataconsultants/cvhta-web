@@ -192,6 +192,22 @@
           44.7735891
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Satellite Six is a Brand Marketing Production company, developing brands, websites, and marketing for new, existing, and rebranding businesses.",
+        "url": "http://www.satellitesix.com/",
+        "name": "Satellite Six",
+        "logo":"http://www.satellitesix.com/wp-content/themes/satsix/images/logo-shadow-sm.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.459378,
+          44.8598209
+        ]
+      }
     }
   ]
 }
