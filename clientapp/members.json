@@ -212,10 +212,10 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "Draft Design House has experience designing print and web solutions for all types of clientele. We can be young and hip or timeless and professional - or even both at the same time.",
+        "description": "A dedicated creative agency specializing in getting clients results through custom print and web solutions.",
         "url": "http://www.draftdesignhouse.com/",
         "name": "Draft Design House",
-        "logo":"http://www.draftdesignhouse.com/images/assets/mobileLogo.svg"
+        "logo":"http://cvhta.com/images/DRAFTlogo.svg"
       },
       "geometry": {
         "type": "Point",
