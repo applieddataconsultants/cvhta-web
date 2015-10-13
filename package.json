@@ -8,7 +8,8 @@
     "start": "gulp watch",
     "dist": "NODE_ENV=production gulp",
     "lint": "eslint clientapp",
-    "ci-lint": "eslint -f checkstyle clientapp > checkstyle-result.xml"
+    "ci-lint": "eslint -f checkstyle clientapp > checkstyle-result.xml",
+    "staging-302": "rsync -az .htaccess sawyer@adc-staging-web1:/var/www/html/sandbox3/cvhta/"
   },
   "keywords": [],
   "author": "Marc Harter <wavded@gmail.com>",
