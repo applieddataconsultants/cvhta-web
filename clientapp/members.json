@@ -208,6 +208,22 @@
           44.8598209
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Draft Design House has experience designing print and web solutions for all types of clientele. We can be young and hip or timeless and professional - or even both at the same time.",
+        "url": "http://www.draftdesignhouse.com/",
+        "name": "Draft Design House",
+        "logo":"http://www.draftdesignhouse.com/images/assets/mobileLogo.svg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -91.49819612503052,
+          44.810286272980264
+        ]
+      }
     }
   ]
 }
