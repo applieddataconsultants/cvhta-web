@@ -75,7 +75,7 @@ gulp.task('css', function () {
 
     // Remove unused CSS rules
     .pipe(uncss({
-      html: ['dist/index.html'],
+      html: ['dist/index.html', 'dist/media.html'],
       ignore: [ /leaflet/, /cvhta/, /container/ ]
     }))
 

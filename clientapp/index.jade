@@ -15,6 +15,7 @@ html(lang="en")
           li: a(data-scroll, href="#mission") About
           li: a(data-scroll, href="#members") Members
           li: a(data-scroll, href="#partners") Partners
+          li: a(href="media.html") Media
           li: a(href="mailto:members@cvhta.com") Contact
 
     #map.cvhta-map
@@ -39,7 +40,7 @@ html(lang="en")
         We decided to form our own coalition to showcase all the opportunities that are available in this region, as well as to display the innovative work performed by our talented employees.
 
       h3#members.cvhta-accent.text-center Members
-        
+
       each feature in members.features
         .col-md-4.col-sm-6
           .cvhta-company.well.center-block
@@ -51,11 +52,11 @@ html(lang="en")
               .cvhta-company-info
                 h3: a(href=feature.properties.url)= feature.properties.name
                 p= feature.properties.description
-                  
+
       .clearfix
-      
+
       h3#partners.cvhta-accent.text-center Partners
-      
+
       each feature in partners.features
         .col-md-4.col-sm-6
           .cvhta-partner.well.center-block
@@ -64,7 +65,7 @@ html(lang="en")
                 img.img-responsive(src= feature.properties.logo)
             else
               h3: a(href=feature.properties.url)= feature.properties.name
-      
+
     hr
 
     div.connect-menu.text-center
