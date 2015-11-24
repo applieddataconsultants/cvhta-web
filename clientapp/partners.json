@@ -126,7 +126,7 @@
       "properties": {
         "name": "Zürich Industries llc",
         "url": "http://www.zurichindustries.us",
-        "logo": "http://cvhta.com/images/Zurich.jpg"
+        "logo": "images/Zurich.jpg"
       }
     },
     {
@@ -134,7 +134,7 @@
       "properties": {
         "name": "Chippewa Falls Area Unified School District",
         "url": "http://cfsd.chipfalls.k12.wi.us/",
-        "logo": "http://cvhta.com/images/2006districtlogo.jpeg"
+        "logo": "images/2006districtlogo.jpeg"
       },
       "geometry": {
         "type": "Point",
