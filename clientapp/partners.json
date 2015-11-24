@@ -90,6 +90,59 @@
           44.807142633370475
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wipfli",
+        "url": "http://www.wipfli.com",
+        "logo": "http://support.wipfli.com/images/wipfli_logo.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.036747,
+          43.0418348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Iconostar",
+        "url": "http://www.iconostar.com",
+        "logo": "http://www.billolsonvideo.com/pics/Iconostar_small.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.4947834,
+          44.8053919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Industries llc",
+        "url": "http://www.zurichindustries.us",
+        "logo": "http://cvhta.com/images/Zurich.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chippewa Falls Area Unified School District",
+        "url": "http://cfsd.chipfalls.k12.wi.us/",
+        "logo": "http://cvhta.com/images/2006districtlogo.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.4083619,
+          44.9325488
+        ]
+      }
     }
   ]
 }
