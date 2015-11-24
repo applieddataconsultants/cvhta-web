@@ -39,7 +39,7 @@
         "name": "IDEXX Laboratories, Inc",
         "url": "https://www.idexx.com",
         "description": "IDEXX Laboratories, Inc., is the global market leader in diagnostics and information technology solutions for animal health and water and milk quality.",
-        "logo":"http://cvhta.com/images/idexx.png"
+        "logo":"images/idexx.png"
       },
       "geometry": {
         "type": "Point",
@@ -215,7 +215,7 @@
         "description": "A dedicated creative agency specializing in getting clients results through custom print and web solutions.",
         "url": "http://www.draftdesignhouse.com/",
         "name": "Draft Design House",
-        "logo":"http://cvhta.com/images/DRAFTlogo.svg"
+        "logo":"images/DRAFTlogo.svg"
       },
       "geometry": {
         "type": "Point",
@@ -230,8 +230,8 @@
       "properties": {
         "description": "WIN is an Ethernet, Internet, Data Center, and Network Management Services provider located in Banbury Place. Since 1999, WIN has built and acquired over 5,000 miles of fiber optic network in the Upper Midwest to serve wholesale and enterprise customers in Wisconsin, Minnesota, Upper Michigan, Illinois, Iowa, and global locations through regional, national, and international partnerships.",
         "url": "http://www.wins.net",
-        "name": "Wisconsin Independent Network",
-        "logo":"http://cvhta.com/images/WIN.png"
+        "name": "WIN",
+        "logo":"images/WIN.png"
       },
       "geometry": {
         "type": "Point",

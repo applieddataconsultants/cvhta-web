@@ -144,7 +144,7 @@ h1, h2, h3 {
   background-color: #fff;
 
   &:hover .cvhta-company-logo {
-    transform: translateY(-200px);
+    transform: translateY(-400px);
     opacity: 0;
   }
 }
@@ -195,12 +195,17 @@ h1, h2, h3 {
 
 .cvhta-partner {
   height: 100px;
+  max-height: 100px;
   overflow: hidden;
   background-color: #fff;
   border: none;
 
   a {
     color: @tech-green;
+  }
+
+  img {
+    height:100% !important;
   }
 }
 

@@ -21,7 +21,7 @@
       "properties": {
         "name": "Eau Claire County",
         "url": "http://www.co.eau-claire.wi.us/",
-        "logo": "https://media.licdn.com/media-proxy/ext?w=180&h=110&f=c&hash=EMXGLJ5UCc4gDUQH25yqn7VAHy8%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0Vinkhwfjw8177yE41y87UNCVordEGXyD3u0qYrdfyLqeMLZKLChuQgfLSkclABhfvKhFDfoD8K6K4i-LtwljsO2dY25YwMPfBF4j3lK6w"
+        "logo": "images/ec_county.png"
       },
       "geometry": {
         "type": "Point",
@@ -51,7 +51,7 @@
       "properties": {
         "name": "Curt Manufacturing",
         "url": "http://www.curtmfg.com/",
-        "logo": "http://www.curtmfg.com/Content/img/logo.png"
+        "logo": "images/curt.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -126,7 +126,7 @@
       "properties": {
         "name": "Zürich Industries llc",
         "url": "http://www.zurichindustries.us",
-        "logo": "http://cvhta.com/images/Zurich.jpg"
+        "logo": "images/Zurich.jpg"
       }
     },
     {
@@ -134,7 +134,7 @@
       "properties": {
         "name": "Chippewa Falls Area Unified School District",
         "url": "http://cfsd.chipfalls.k12.wi.us/",
-        "logo": "http://cvhta.com/images/2006districtlogo.jpeg"
+        "logo": "images/2006districtlogo.jpeg"
       },
       "geometry": {
         "type": "Point",
