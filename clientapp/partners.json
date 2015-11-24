@@ -51,7 +51,7 @@
       "properties": {
         "name": "Curt Manufacturing",
         "url": "http://www.curtmfg.com/",
-        "logo": "http://www.curtmfg.com/Content/img/logo.png"
+        "logo": "images/curt.jpg"
       },
       "geometry": {
         "type": "Point",
