@@ -39,7 +39,7 @@
         "name": "IDEXX Laboratories, Inc",
         "url": "https://www.idexx.com",
         "description": "IDEXX Laboratories, Inc., is the global market leader in diagnostics and information technology solutions for animal health and water and milk quality.",
-        "logo":"http://cvhta.com/images/idexx.png"
+        "logo":"images/idexx.png"
       },
       "geometry": {
         "type": "Point",
@@ -215,7 +215,7 @@
         "description": "A dedicated creative agency specializing in getting clients results through custom print and web solutions.",
         "url": "http://www.draftdesignhouse.com/",
         "name": "Draft Design House",
-        "logo":"http://cvhta.com/images/DRAFTlogo.svg"
+        "logo":"images/DRAFTlogo.svg"
       },
       "geometry": {
         "type": "Point",

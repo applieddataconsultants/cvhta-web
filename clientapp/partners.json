@@ -21,7 +21,7 @@
       "properties": {
         "name": "Eau Claire County",
         "url": "http://www.co.eau-claire.wi.us/",
-        "logo": "https://media.licdn.com/media-proxy/ext?w=180&h=110&f=c&hash=EMXGLJ5UCc4gDUQH25yqn7VAHy8%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0Vinkhwfjw8177yE41y87UNCVordEGXyD3u0qYrdfyLqeMLZKLChuQgfLSkclABhfvKhFDfoD8K6K4i-LtwljsO2dY25YwMPfBF4j3lK6w"
+        "logo": "images/ec_county.png"
       },
       "geometry": {
         "type": "Point",
