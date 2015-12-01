@@ -240,6 +240,22 @@
           44.809196
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "With over 140 HBS employed engineers, including over 40 Cisco certified engineers, HBS provides the depth of technical talent required to meet all your implementation goals.",
+        "url": "http://www.hbs.net/",
+        "name": "Heartland Business Systems",
+        "logo":"http://www.hbs.net/HBS/media/HBSlogo/HBS-Website-Logo.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -91.5436081,
+         44.8424983
+        ]
+      }
     }
   ]
 }
