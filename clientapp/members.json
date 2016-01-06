@@ -71,7 +71,7 @@
         "name": "RAI Stone Group",
         "url": "http://www.raistonegroup.com/",
         "description": "Use the power of smart technology, predictive analytics, and an expert system to grow your SMB customer base.",
-        "logo":"http://static.wixstatic.com/media/10caf6_a0f8ca8df28f495d8d270b9897c636ec.jpg_srz_p_63_63_75_22_0.50_1.20_0.00_jpg_srz"
+        "logo":"images/raistone.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -254,6 +254,22 @@
         "coordinates": [
          -91.5436081,
          44.8424983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Hutchinson Technology is a global supplier of critical precision component technologies. As a key supplier of suspension assemblies for disk drives, HTI helps customers improve overall disk drive performance and meet the demands of an ever-expanding digital universe. Through its new business development initiatives, HTI focuses on leveraging its unique precision manufacturing capabilities in new markets to improve product performance, reduce size, lower cost, and reduce time to market.",
+        "url": "http://www.htch.com",
+        "name": "Hutchinson Technology",
+        "logo":"images/hti.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -91.542312,
+         44.8392892
         ]
       }
     }
