@@ -4,14 +4,15 @@
 
 Chippewa Valley High Tech Alliance website.
 
-## Setup
+Setup
+-----
 
-1. Install [Node/io](https://iojs.org) and [phantomjs](http://phantomjs.org)
-2. `npm install`
-3. `npm start`
+1.	`npm install`
+2.	`npm start`
 
 Visit [http://localhost:3000](http://localhost:3000) in your favorite browser.
 
-## Data
+Data
+----
 
 Company data is provided as a [GeoJSON file](clientapp/members.json).
