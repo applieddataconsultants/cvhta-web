@@ -8,19 +8,19 @@ import L from 'leaflet'
  */
 export default function makePointLayer(geojson, icon) {
   return L.geoJson(geojson, {
-    pointToLayer: function (feature, latlng) {
-      return L.marker(latlng, { icon })
+    pointToLayer: function(feature, latlng) {
+      return L.marker(latlng, {icon})
     },
-    onEachFeature: function (feature, layer) {
+    onEachFeature: function(feature, layer) {
       if (feature.properties.logo) {
         layer.bindLabel(`
           <a target="_blank" href="${feature.properties.url}">
             <img class='cvhta-popup-logo' src="${feature.properties.logo}"/>
-          </a>`, { clickable: true })
+          </a>`, {clickable: true})
       }
       else {
-        layer.bindLabel(feature.properties.name, { clickable: true })
+        layer.bindLabel(feature.properties.name, {clickable: true})
       }
-    }
+    },
   })
 }

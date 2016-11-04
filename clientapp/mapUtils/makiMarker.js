@@ -6,8 +6,8 @@ import L from 'leaflet'
  * Adapted for CommonJS/ES6
  */
 
-let MakiMarkers = {
-  icons: [ 'airfield', 'airport', 'alcohol-shop', 'america-football', 'art-gallery', 'bakery', 'bank', 'bar',
+const MakiMarkers = {
+  icons: ['airfield', 'airport', 'alcohol-shop', 'america-football', 'art-gallery', 'bakery', 'bank', 'bar',
     'baseball', 'basketball', 'beer', 'bicycle', 'building', 'bus', 'cafe', 'camera', 'campsite', 'car',
     'cemetery', 'chemist', 'cinema', 'circle-stroked', 'circle', 'city', 'clothing-store', 'college',
     'commercial', 'cricket', 'cross', 'dam', 'danger', 'disability', 'dog-park', 'embassy',
@@ -21,55 +21,56 @@ let MakiMarkers = {
     'religious-muslim', 'restaurant', 'roadblock', 'rocket', 'school', 'scooter', 'shop', 'skiing',
     'slaughterhouse', 'soccer', 'square-stroked', 'square', 'star-stroked', 'star', 'suitcase',
     'swimming', 'telephone', 'tennis', 'theatre', 'toilets', 'town-hall', 'town', 'triangle-stroked',
-    'triangle', 'village', 'warehouse', 'waste-basket', 'water', 'wetland', 'zoo'
+    'triangle', 'village', 'warehouse', 'waste-basket', 'water', 'wetland', 'zoo',
   ],
   defaultColor: '#0a0',
   defaultIcon: 'circle-stroked',
   defaultSize: 'm',
   apiUrl: 'https://api.tiles.mapbox.com/v3/marker/',
   smallOptions: {
-    iconSize: [ 20, 50 ],
-    popupAnchor: [ 0, -20 ]
+    iconSize: [20, 50],
+    popupAnchor: [0, -20],
   },
   mediumOptions: {
-    iconSize: [ 30, 70 ],
-    popupAnchor: [ 0, -30 ]
+    iconSize: [30, 70],
+    popupAnchor: [0, -30],
   },
   largeOptions: {
-    iconSize: [ 36, 90 ],
-    popupAnchor: [ 0, -40 ]
-  }
+    iconSize: [36, 90],
+    popupAnchor: [0, -40],
+  },
 }
 
 MakiMarkers.Icon = L.Icon.extend({
   options: {
     icon: MakiMarkers.defaultIcon,
     color: MakiMarkers.defaultColor,
-    //Marker size: "s" (small), "m" (medium), or "l" (large)
+    // Marker size: "s" (small), "m" (medium), or "l" (large)
     size: MakiMarkers.defaultSize,
     shadowAnchor: null,
     shadowSize: null,
     shadowUrl: null,
-    className: 'maki-marker'
+    className: 'maki-marker',
   },
 
-  initialize: function (options) {
+  initialize: function(options) {
+
     /* eslint complexity:0 */
     let pin
 
     options = L.setOptions(this, options)
 
     switch (options.size) {
-      case 's':
-        L.extend(options, MakiMarkers.smallOptions)
-        break
-      case 'l':
-        L.extend(options, MakiMarkers.largeOptions)
-        break
-      default:
-        options.size = 'm'
-        L.extend(options, MakiMarkers.mediumOptions)
-        break
+    case 's':
+      L.extend(options, MakiMarkers.smallOptions)
+      break
+    case 'l':
+      L.extend(options, MakiMarkers.largeOptions)
+      break
+    default:
+      options.size = 'm'
+      L.extend(options, MakiMarkers.mediumOptions)
+      break
     }
 
 
@@ -87,9 +88,9 @@ MakiMarkers.Icon = L.Icon.extend({
       pin += '+' + options.color
     }
 
-    options.iconUrl = '' + MakiMarkers.apiUrl + pin + '.png'
+    options.iconUrl = String(MakiMarkers.apiUrl) + pin + '.png'
     options.iconRetinaUrl = MakiMarkers.apiUrl + pin + '@2x.png'
-  }
+  },
 })
 
 export default function(options) {
