@@ -40,7 +40,7 @@
     "bootswatch": "^3.3.4",
     "buoy": "^0.4.7",
     "leaflet": "^0.7.3",
-    "leaflet.label": "github:leaflet/Leaflet.label",
+    "leaflet.label": "Leaflet/Leaflet.label#0.2.1",
     "smooth-scroll": "cferdinandi/smooth-scroll"
   },
   "repository": {

@@ -58,7 +58,7 @@ document
     fullModeOn = false
   })
 
-smoothScroll.init({
+smoothScroll('a[data-scroll]', {
   speed: 1000,
   offset: 40,
   easing: 'easeInOutQuart',
