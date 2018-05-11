@@ -81,7 +81,7 @@
       "properties": {
         "name": "Manpower",
         "url": "http://www.manpower.com/",
-        "logo": "http://www.manpower.com/img/logo_manpower.png"
+        "logo": "https://www.manpower.com/CandidateExperienceStaticTheme/themes/CEHomeTheme/images/manpower/logo.png"
       },
       "geometry": {
         "type": "Point",
@@ -96,7 +96,7 @@
       "properties": {
         "name": "Wipfli",
         "url": "http://www.wipfli.com",
-        "logo": "http://support.wipfli.com/images/wipfli_logo.jpg"
+        "logo": "images/wipfli.png"
       },
       "geometry": {
         "type": "Point",

@@ -119,7 +119,7 @@
         "description": "As the trusted leader in high performance computing, SGI helps companies find answers to the world’s biggest challenges. Our commitment to innovation is unwavering and focused on delivering market leading solutions in Technical Computing, Big Data Analytics, and Petascale Storage.",
         "url": "http://www.sgi.com/",
         "name": "SGI",
-        "logo":"http://www.sgi.com/images/main_template/topbar_logo.png"
+        "logo":"images/sgi.png"
       },
       "geometry": {
         "type": "Point",
@@ -199,7 +199,7 @@
         "description": "Satellite Six is a Brand Marketing Production company, developing brands, websites, and marketing for new, existing, and rebranding businesses.",
         "url": "http://www.satellitesix.com/",
         "name": "Satellite Six",
-        "logo":"http://www.satellitesix.com/wp-content/themes/satsix/images/logo-shadow-sm.png"
+        "logo":"https://www.satellitesix.com/wp-content/uploads/2017/05/full_logo-1.png"
       },
       "geometry": {
         "type": "Point",
