@@ -11,10 +11,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.55211925506592,
-          44.8853401522454
-        ]
+        "coordinates": [-91.55211925506592, 44.8853401522454]
       }
     },
     {
@@ -27,10 +24,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.50375366210938,
-          44.81428598318907
-        ]
+        "coordinates": [-91.50375366210938, 44.81428598318907]
       }
     },
     {
@@ -39,14 +33,11 @@
         "name": "IDEXX Laboratories, Inc",
         "url": "https://www.idexx.com",
         "description": "IDEXX Laboratories, Inc., is the global market leader in diagnostics and information technology solutions for animal health and water and milk quality.",
-        "logo":"images/idexx.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/en/a/ac/IDEXX_Labs.svg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.54688358306885,
-          44.84102097157541
-        ]
+        "coordinates": [-91.54688358306885, 44.84102097157541]
       }
     },
     {
@@ -55,30 +46,11 @@
         "name": "Realityworks",
         "url": "http://realityworks.com/",
         "description": "Realityworks develops interactive, educational products that changes lives.",
-        "logo":"http://realityworks.com/blog/images/Realityworks_logo%20Color.jpg"
+        "logo": "http://realityworks.com/blog/images/Realityworks_logo%20Color.jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.52179956436157,
-          44.79047010748775
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "RAI Stone Group",
-        "url": "http://www.raistonegroup.com/",
-        "description": "Use the power of smart technology, predictive analytics, and an expert system to grow your SMB customer base.",
-        "logo":"images/raistone.jpg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.44485235214233,
-          44.781286741752176
-        ]
+        "coordinates": [-91.52179956436157, 44.79047010748775]
       }
     },
     {
@@ -87,14 +59,11 @@
         "name": "Cray Inc.",
         "url": "http://www.cray.com/",
         "description": "For over 40 years we have been developing highly advanced computing solutions for the world’s most complex science, engineering and analytics challenges. Ever since we introduced the world’s first supercomputer in 1976, our technologies have helped solve today’s problems and made tomorrow’s questions possible.",
-        "logo":"https://upload.wikimedia.org/wikipedia/commons/8/89/Cray_logo.svg"
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/8/89/Cray_logo.svg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.3685638,
-          44.957419
-        ]
+        "coordinates": [-91.3685638, 44.957419]
       }
     },
     {
@@ -103,14 +72,11 @@
         "name": "Intel Corporation",
         "url": "http://www.intel.com/",
         "description": "Intel designs and builds the essential technologies that serve as the foundation for the world's computing devices.",
-        "logo":"http://www.hwoverdrive.com/wp-content/uploads/2015/02/Intel.png"
+        "logo": "http://www.hwoverdrive.com/wp-content/uploads/2015/02/Intel.png"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.54189,
-          44.818633
-        ]
+        "coordinates": [-91.54189, 44.818633]
       }
     },
     {
@@ -118,15 +84,12 @@
       "properties": {
         "description": "As the trusted leader in high performance computing, SGI helps companies find answers to the world’s biggest challenges. Our commitment to innovation is unwavering and focused on delivering market leading solutions in Technical Computing, Big Data Analytics, and Petascale Storage.",
         "url": "http://www.sgi.com/",
-        "name": "SGI",
-        "logo":"images/sgi.png"
+        "name": "Hewlett Packard",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ad/HP_logo_2012.svg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.373495,
-          44.935054
-        ]
+        "coordinates": [-91.373495, 44.935054]
       }
     },
     {
@@ -139,10 +102,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.49837851524353,
-          44.80988286149932
-        ]
+        "coordinates": [-91.49837851524353, 44.80988286149932]
       }
     },
     {
@@ -151,14 +111,11 @@
         "description": "Entropy Multimedia exists to empower people and organizations to take control of their web content. The company has grown into a team of diverse individuals, each of whom brings expertise to bear on the challenges of web application development and content management.",
         "url": "http://entropymultimedia.com/",
         "name": "Entropy Multimedia",
-        "logo":"http://i.entropy.cc/css/img/entropy-logo-web.png"
+        "logo": "http://i.entropy.cc/css/img/entropy-logo-web.png"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.49907320737839,
-          44.81063449854619
-        ]
+        "coordinates": [-91.49907320737839, 44.81063449854619]
       }
     },
     {
@@ -167,14 +124,11 @@
         "description": "Evrisko Systems' Low-Cost Open Protocol WiFi products dramatically reduce the overall expenses associated with installation, reconfiguration, maintenance, and operations of intelligent building automation systems.",
         "url": "http://www.evriskosys.com/",
         "name": "Evrisko Systems",
-        "logo":"http://www.evriskosys.com/images/Evrisko-transbackground.png"
+        "logo": "http://www.evriskosys.com/images/Evrisko-transbackground.png"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.5414194,
-          44.8424983
-        ]
+        "coordinates": [-91.5414194, 44.8424983]
       }
     },
     {
@@ -183,14 +137,11 @@
         "description": "Superion Technology is an industry leader for ASIC & FPGA Design Services and Consulting. Our U.S.-based team has over 15 years of experience working together on advanced chip design projects in a variety of domains.",
         "url": "http://superiontech.com/",
         "name": "Superion Technology",
-        "logo":"http://superiontech.com/wp-content/uploads/2014/11/logo.png"
+        "logo": "http://superiontech.com/wp-content/uploads/2014/11/logo.png"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.4604682,
-          44.7735891
-        ]
+        "coordinates": [-91.4604682, 44.7735891]
       }
     },
     {
@@ -199,14 +150,11 @@
         "description": "Satellite Six is a Brand Marketing Production company, developing brands, websites, and marketing for new, existing, and rebranding businesses.",
         "url": "http://www.satellitesix.com/",
         "name": "Satellite Six",
-        "logo":"https://www.satellitesix.com/wp-content/uploads/2017/05/full_logo-1.png"
+        "logo": "https://www.satellitesix.com/wp-content/uploads/2017/05/full_logo-1.png"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.459378,
-          44.8598209
-        ]
+        "coordinates": [-91.459378, 44.8598209]
       }
     },
     {
@@ -215,14 +163,11 @@
         "description": "A dedicated creative agency specializing in getting clients results through custom print and web solutions.",
         "url": "http://www.draftdesignhouse.com/",
         "name": "Draft Design House",
-        "logo":"images/DRAFTlogo.svg"
+        "logo": "https://draftdesignhouse.com/images/assets/DraftLogoForHover.svg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-         -91.49819612503052,
-          44.810286272980264
-        ]
+        "coordinates": [-91.49819612503052, 44.810286272980264]
       }
     },
     {
@@ -231,14 +176,11 @@
         "description": "WIN is an Ethernet, Internet, Data Center, and Network Management Services provider located in Banbury Place. Since 1999, WIN has built and acquired over 5,000 miles of fiber optic network in the Upper Midwest to serve wholesale and enterprise customers in Wisconsin, Minnesota, Upper Michigan, Illinois, Iowa, and global locations through regional, national, and international partnerships.",
         "url": "http://www.wins.net",
         "name": "WIN",
-        "logo":"images/WIN.png"
+        "logo": "https://wins.net/wp-content/themes/win-theme/assets/images/logo-rbw.png"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-         -91.507157,
-          44.809196
-        ]
+        "coordinates": [-91.507157, 44.809196]
       }
     },
     {
@@ -247,14 +189,11 @@
         "description": "With over 140 HBS employed engineers, including over 40 Cisco certified engineers, HBS provides the depth of technical talent required to meet all your implementation goals.",
         "url": "http://www.hbs.net/",
         "name": "Heartland Business Systems",
-        "logo":"http://www.hbs.net/HBS/media/HBSlogo/HBS-Website-Logo.jpg"
+        "logo": "http://www.hbs.net/HBS/media/HBSlogo/HBS-Website-Logo.jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-         -91.5436081,
-         44.8424983
-        ]
+        "coordinates": [-91.5436081, 44.8424983]
       }
     },
     {
@@ -263,14 +202,11 @@
         "description": "Hutchinson Technology is a global supplier of critical precision component technologies. As a key supplier of suspension assemblies for disk drives, HTI helps customers improve overall disk drive performance and meet the demands of an ever-expanding digital universe. Through its new business development initiatives, HTI focuses on leveraging its unique precision manufacturing capabilities in new markets to improve product performance, reduce size, lower cost, and reduce time to market.",
         "url": "http://www.htch.com",
         "name": "Hutchinson Technology",
-        "logo":"images/hti.jpg"
+        "logo": "https://upload.wikimedia.org/wikipedia/en/c/ce/TDK_logo.svg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-         -91.542312,
-         44.8392892
-        ]
+        "coordinates": [-91.542312, 44.8392892]
       }
     }
   ]
