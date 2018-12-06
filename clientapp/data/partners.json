@@ -101,7 +101,8 @@
       "type": "Feature",
       "properties": {
         "name": "Zürich Industries llc",
-        "logo": "http://www.zurichind.com/img/logo-medium.png"
+        "url": "http://www.zurichind.com",
+        "logo": "https://media.licdn.com/dms/image/C560BAQFPJIguyWkcfQ/company-logo_200_200/0?e=2159024400&v=beta&t=UjZ5U87i0Cw9-ZPvBjSjesSCEOu7BG34WHQnN2tmzZE"
       },
       "geometry": {
         "type": "Point",

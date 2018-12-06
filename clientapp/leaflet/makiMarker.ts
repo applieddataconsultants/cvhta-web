@@ -9,14 +9,13 @@ import {Icon, IconOptions} from 'leaflet'
 const apiUrl = 'https://api.tiles.mapbox.com/v3/marker/'
 
 export interface MakiMarkerOptions extends IconOptions {
-  icon: string
+  icon?: string
   color: string
   size: 's' | 'l' | 'm'
 }
 
 class MakiMarker extends Icon {
   public options: MakiMarkerOptions = {
-    icon: 'circle-stroked',
     color: '#0a0',
     size: 'm',
     className: 'maki-marker',
@@ -48,11 +47,11 @@ class MakiMarker extends Icon {
 
     let pin = 'pin-' + this.options.size
 
-    if (this.options.icon !== null) {
+    if (this.options.icon != null) {
       pin += '-' + this.options.icon
     }
 
-    if (this.options.color !== null) {
+    if (this.options.color != null) {
       if (this.options.color.charAt(0) === '#') {
         this.options.color = this.options.color.substr(1)
       }

@@ -1,4 +1,4 @@
-import {GeoJSON, Map, Marker, TileLayer} from 'leaflet'
+import {Control, GeoJSON, Map, Marker, TileLayer} from 'leaflet'
 import {GeoCollection} from '../types'
 import MakiMarker from './makiMarker'
 
@@ -6,19 +6,24 @@ class Leaflet {
   private map: Map
 
   constructor(el: string | HTMLElement) {
-    let stamen = new TileLayer('http://{s}.tile.stamen.com/toner/{z}/{x}/{y}{r}.png')
+    let stamen = new TileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}{r}.png')
 
     this.map = new Map(el, {
       layers: [stamen],
-      zoomControl: true,
+      zoomControl: false,
       scrollWheelZoom: false,
       attributionControl: false,
     })
+    this.map.addControl(
+      new Control.Zoom({
+        position: 'topright',
+      })
+    )
   }
 
   public loadData(geos: GeoCollection[]) {
     for (let geo of geos) {
-      let group = new GeoJSON(geo.geojson, {
+      let group = new GeoJSON(geo, {
         pointToLayer(feature, latlng) {
           return new Marker(latlng, {
             icon: new MakiMarker({

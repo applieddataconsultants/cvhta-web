@@ -1,11 +1,12 @@
-export default function render(
-  members: GeoJSON.FeatureCollection,
-  partners: GeoJSON.FeatureCollection
-) {
+import {GeoCollection} from './types'
+
+export default function render(members: GeoCollection, partners: GeoCollection) {
   let membersEl = document.getElementById('members')!
   let html = ''
 
-  for (let member of members.features) {
+  let byName = (a: any, b: any) => (a.properties.name > b.properties.name ? 1 : -1)
+
+  for (let member of members.features.sort(byName)) {
     html += `
       <div class="col-md-3">
         <div class="cvhta-company">
@@ -27,17 +28,19 @@ export default function render(
 
   let partnersEl = document.getElementById('partners-list')!
   html = ''
-  for (let partner of partners.features) {
+  for (let partner of partners.features.sort(byName)) {
     html += `
       <div class="col-md-2">
         <div class="cvhta-partner">
-          <a href="${partner.properties!.url}">
-            <img
-              class="img-responsive"
-              src="${partner.properties!.logo}"
-              title="${partner.properties!.name}"
-            />
-          </a>
+          <button>
+            <a href="${partner.properties!.url}">
+              <img
+                class="img-responsive"
+                src="${partner.properties!.logo}"
+                title="${partner.properties!.name}"
+              />
+            </a>
+          </button>
         </div>
       </div>
     `
