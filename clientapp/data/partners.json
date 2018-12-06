@@ -10,10 +10,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.44950866699219,
-          44.79665244618282
-        ]
+        "coordinates": [-91.44950866699219, 44.79665244618282]
       }
     },
     {
@@ -21,14 +18,11 @@
       "properties": {
         "name": "Eau Claire County",
         "url": "http://www.co.eau-claire.wi.us/",
-        "logo": "images/ec_county.png"
+        "logo": "https://www.co.eau-claire.wi.us/Project/Contents/Main/_gfx/cmn/logo.png"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.50421500205994,
-          44.808010386362795
-        ]
+        "coordinates": [-91.50421500205994, 44.808010386362795]
       }
     },
     {
@@ -36,14 +30,11 @@
       "properties": {
         "name": "City of Eau Claire",
         "url": "http://www.ci.eau-claire.wi.us/",
-        "logo": "http://www.eauclairedevelopment.com/images/news/city-logo.jpg?1398270260"
+        "logo": "http://www.eauclairedevelopment.com/images/news/city-logo.jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.49819612503052,
-          44.81193794716459
-        ]
+        "coordinates": [-91.49819612503052, 44.81193794716459]
       }
     },
     {
@@ -51,14 +42,11 @@
       "properties": {
         "name": "Curt Manufacturing",
         "url": "http://www.curtmfg.com/",
-        "logo": "images/curt.jpg"
+        "logo": "https://www.curtmfg.com/media/images/top-nav-logos/curt-logo.svg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.410578,
-          44.795283
-        ]
+        "coordinates": [-91.410578, 44.795283]
       }
     },
     {
@@ -70,10 +58,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.396494,
-          44.951723
-        ]
+        "coordinates": [-91.396494, 44.951723]
       }
     },
     {
@@ -85,10 +70,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.47242546081542,
-          44.807142633370475
-        ]
+        "coordinates": [-91.47242546081542, 44.807142633370475]
       }
     },
     {
@@ -96,14 +78,11 @@
       "properties": {
         "name": "Wipfli",
         "url": "http://www.wipfli.com",
-        "logo": "images/wipfli.png"
+        "logo": "https://www.wipfli.com/-/media/572A85F2CAFB425CBE4814281EE746BF.ashx"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -88.036747,
-          43.0418348
-        ]
+        "coordinates": [-91.4317113, 44.7671614]
       }
     },
     {
@@ -115,17 +94,19 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.4947834,
-          44.8053919
-        ]
+        "coordinates": [-91.4947834, 44.8053919]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "name": "Zürich Industries llc",
-        "logo": "images/Zurich.jpg"
+        "url": "http://www.zurichind.com",
+        "logo": "https://media.licdn.com/dms/image/C560BAQFPJIguyWkcfQ/company-logo_200_200/0?e=2159024400&v=beta&t=UjZ5U87i0Cw9-ZPvBjSjesSCEOu7BG34WHQnN2tmzZE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.919342, 44.875518]
       }
     },
     {
@@ -133,14 +114,11 @@
       "properties": {
         "name": "Chippewa Falls Area Unified School District",
         "url": "http://cfsd.chipfalls.k12.wi.us/",
-        "logo": "images/2006districtlogo.jpeg"
+        "logo": "https://cfsd.chipfalls.k12.wi.us/cms_files/text65644_1.jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.4083619,
-          44.9325488
-        ]
+        "coordinates": [-91.4083619, 44.9325488]
       }
     }
   ]
