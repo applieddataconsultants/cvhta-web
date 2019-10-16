@@ -3,3 +3,4 @@ npm-debug.log
 dist
 checkstyle-result.xml
 .DS_Store
+yarn-error.log

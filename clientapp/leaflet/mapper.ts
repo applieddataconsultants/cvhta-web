@@ -6,7 +6,9 @@ class Leaflet {
   private map: Map
 
   constructor(el: string | HTMLElement) {
-    let stamen = new TileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}{r}.png')
+    let stamen = new TileLayer(
+      'http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}{r}.png'
+    )
 
     this.map = new Map(el, {
       layers: [stamen],

@@ -1,10 +1,14 @@
 import {GeoCollection} from './types'
 
-export default function render(members: GeoCollection, partners: GeoCollection) {
+export default function render(
+  members: GeoCollection,
+  partners: GeoCollection
+) {
   let membersEl = document.getElementById('members')!
   let html = ''
 
-  let byName = (a: any, b: any) => (a.properties.name > b.properties.name ? 1 : -1)
+  let byName = (a: any, b: any) =>
+    a.properties.name > b.properties.name ? 1 : -1
 
   for (let member of members.features.sort(byName)) {
     html += `
@@ -17,7 +21,9 @@ export default function render(members: GeoCollection, partners: GeoCollection) 
             </div>
 
             <div class="cvhta-company-info">
-              <h3><a href="${member.properties!.url}">${member.properties!.name}</a></h3>
+              <h3><a href="${member.properties!.url}">${
+      member.properties!.name
+    }</a></h3>
               <p>${member.properties!.description}</p>
             </div>
         </div>
