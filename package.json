@@ -9,7 +9,7 @@
     "clean": "rm -rf dist",
     "build": "parcel build --no-source-maps --no-cache clientapp/index.html",
     "lint": "tsc --noEmit && tslint -p . --fix -t verbose",
-    "format": "prettier --write \"**/*.{html,ts,tsx,css,md}\""
+    "fmt": "prettier --write \"**/*.{html,ts,tsx,css,md}\""
   },
   "keywords": [],
   "author": "Marc Harter <wavded@gmail.com>",
