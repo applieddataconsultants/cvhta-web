@@ -16,3 +16,5 @@ export interface GeoCollection
   icon?: string
   color: string
 }
+
+export type GeoFeature = GeoJSON.Feature<GeoJSON.Point, GeoProperties>

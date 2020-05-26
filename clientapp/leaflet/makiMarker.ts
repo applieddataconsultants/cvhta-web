@@ -15,7 +15,7 @@ export interface MakiMarkerOptions extends IconOptions {
 }
 
 class MakiMarker extends Icon {
-  public options: MakiMarkerOptions = {
+  options: MakiMarkerOptions = {
     color: '#0a0',
     size: 'm',
     className: 'maki-marker',

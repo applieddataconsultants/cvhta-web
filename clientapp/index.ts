@@ -1,10 +1,11 @@
-import members from './data/members.json'
-import partners from './data/partners.json'
+import membersRaw from './data/members.json'
+import partnersRaw from './data/partners.json'
 import Leaflet from './leaflet/mapper'
 import render from './render'
+import * as T from './types'
 
-members.color = '#033e5e'
-partners.color = '#8a9f5c'
+let members = membersRaw as T.GeoCollection
+let partners = partnersRaw as T.GeoCollection
 
 let leaflet = new Leaflet('map')
 leaflet.loadData([members, partners])

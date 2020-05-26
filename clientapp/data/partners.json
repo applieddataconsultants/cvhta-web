@@ -1,5 +1,6 @@
 {
   "type": "FeatureCollection",
+  "color": "#8a9f5c",
   "features": [
     {
       "type": "Feature",

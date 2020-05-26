@@ -1,5 +1,5 @@
-import {Control, GeoJSON, Map, Marker, TileLayer} from 'leaflet'
-import {GeoCollection} from '../types'
+import {Control, GeoJSON, Map, Marker, TileLayer, Layer} from 'leaflet'
+import {GeoCollection, GeoFeature} from '../types'
 import MakiMarker from './makiMarker'
 
 class Leaflet {
@@ -23,7 +23,7 @@ class Leaflet {
     )
   }
 
-  public loadData(geos: GeoCollection[]) {
+  loadData(geos: GeoCollection[]) {
     for (let geo of geos) {
       let group = new GeoJSON(geo, {
         pointToLayer(feature, latlng) {
@@ -38,8 +38,9 @@ class Leaflet {
         },
       })
 
-      group.bindTooltip((layer: any) => {
-        let feature = layer.feature
+      group.bindTooltip((layer: Layer) => {
+        // @ts-ignore
+        let feature = layer.feature as GeoFeature
         return `
             <a target="_blank" href="${feature.properties.url}">
               <img class='cvhta-popup-logo' src="${feature.properties.logo}"/>
@@ -50,7 +51,7 @@ class Leaflet {
     }
   }
 
-  public setView(ll: [number, number], zoom: number) {
+  setView(ll: [number, number], zoom: number) {
     this.map.setView(ll, zoom)
   }
 }
