@@ -6,7 +6,9 @@
     "noUnusedLocals": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "outDir": "./dist"
   },
-  "include": ["clientapp/", "typings.d.ts"]
+  "include": ["clientapp/"]
 }
