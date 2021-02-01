@@ -11,4 +11,4 @@ Visit [http://localhost:3000](http://localhost:3000) in your favorite browser.
 
 ## Data
 
-Company data provided by a [GeoJSON file](clientapp/members.json).
+Company data provided by a [GeoJSON file](clientapp/data/members.json).
