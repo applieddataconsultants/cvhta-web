@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /**
  * GeoJSON properties for a client record.
  */
